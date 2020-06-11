@@ -43,7 +43,7 @@ class geeksforgeeks():
                 self.menuTable.add_row(l)
                 l.append(str(atag.get('href')))
                 self.menu.append(l)
-                i = i + 1
+                i += 1
                 l = []
         self.getMenu()
 
